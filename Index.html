@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cloud Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Мій перший хмарний застосунок</h1>
+  <p>Дисципліна «Хмарні обчислення і хмарні платформи»</p>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Про застосунок</h2>
+    <p>
+      Цей вебзастосунок створено у хмарному середовищі
+      GitHub Codespaces та розгорнуто за допомогою GitHub Pages.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Хмарні технології</h2>
+    <ul>
+      <li>GitHub — зберігання програмного коду</li>
+      <li>GitHub Codespaces — хмарне середовище розробки</li>
+      <li>GitHub Pages — розгортання вебзастосунку</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Інформація про студента</h2>
+    <p>
+      Виконав(ла): Анна МИРОШНИЧЕНКО
+    </p>
+    <button onclick="showMessage()">
+      Перевірити роботу JavaScript
+    </button>
+    <p id="message"></p>
+  </section>
+
+  <section class="card">
+    <h2>Переваги хмарних технологій</h2>
+    <ol>
+      <li>Доступ до ресурсів через Інтернет</li>
+      <li>Масштабованість</li>
+      <li>Швидке розгортання застосунків</li>
+      <li>Спільна робота розробників</li>
+      <li>Використання віддаленої обчислювальної інфраструктури</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Хмарний сервіс: Vercel</h2>
+    <p>
+      Vercel — це хмарна платформа для розгортання та хостингу
+      фронтенд- і повноцінних вебзастосунків (зокрема Next.js),
+      орієнтована на швидке та автоматизоване розгортання
+      безпосередньо з Git-репозиторію.
+    </p>
+    <p>
+      Моделі хмарних послуг: PaaS (Platform as a Service) та
+      частково FaaS (Function as a Service) — через serverless-функції.
+    </p>
+    <p>
+      Приклади сервісів і функцій: Vercel Edge Network (CDN),
+      Serverless Functions, Vercel Postgres, Preview Deployments,
+      автоматична інтеграція з GitHub/GitLab/Bitbucket.
+    </p>
+    <p>
+      Офіційний сайт:
+      <a href="https://vercel.com" target="_blank" rel="noopener">https://vercel.com</a>
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Додаткове завдання</h2>
+    <button onclick="showCloudInfo()">
+      Що таке хмарні обчислення?
+    </button>
+    <p id="cloudInfo"></p>
+  </section>
+</main>
+
+<footer>
+  <p>Cloud Computing © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
